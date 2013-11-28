@@ -1,7 +1,9 @@
 # _Beansdump_
 
-_Description:_ Beansdump is a data collecting tool which reserves jobs from beanstalkd and dump them into AWS S3 in bulk.
-Beansdump WILL LOSE DATA (usually dozens of jobs) since it has two levels of memory cache built-in.
+_Description:_ Beansdump is a data collecting tool which reserving jobs from beanstalkd and dumping them into AWS S3 in bulk.
+Beansdump WILL LOSE DATA (usually dozens of jobs) since it has two levels of memory cache built-in when restart.
+
+It's currently in developing stage, use it at your own risk.
 
 ## Install and Compile
 
