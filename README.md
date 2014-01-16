@@ -1,5 +1,7 @@
 # _Beansdump_
 
+[![Build Status](https://travis-ci.org/fangli/beansdump.png?branch=master)](https://travis-ci.org/fangli/beansdump)
+
 _Description:_ Beansdump is a data collecting tool which reserving jobs from beanstalkd and dumping them into AWS S3 in bulk.
 Beansdump WILL LOSE DATA (usually dozens of jobs) since it has two levels of memory cache built-in when restart.
 
